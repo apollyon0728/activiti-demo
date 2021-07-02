@@ -10,7 +10,7 @@ import java.util.List;
  * Created by guolf on 17/7/1.
  * 动态设置参与公示确认人员
  */
-public class MyTaksListener implements TaskListener {
+public class MyTaskListener implements TaskListener {
 
     public void notify(DelegateTask delegateTask) {
         System.out.println("delegateTask.getEventName() = " + delegateTask.getEventName());
